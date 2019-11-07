@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./assets/css/all.min.css" />
+	<link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+	<!-- Start Header -->
+	<header>
+
+		<!-- Start Header Top -->
+
+		<div class="header-top py-1">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 ">
+
+						<div class="row">
+							<div class="col-md-2 d-none d-lg-block mt-2 pr-0">
+								<select id="currecny" class="w-100">
+									<option>¥ JPY</option>
+									<option>$ USD</option>
+									<option>€ EUR</option>
+								</select>
+
+
+							</div>
+							<div class="col-lg-10 text-center">
+
+								<p class="d-lg-inline-block d-none top-header-call">Call US :- <a
+										href="tel:+11900800100" class="text-decoration-none"> +11 900 800 100</a></p>
+								<ul class="list-inline mb-0 d-inline-block">
+
+									<li class="list-inline-item pt-2 px-1"><a class="text-decoration-none" href="#"><i
+												class="fa fa-user s_color"></i> My Account</a></li>
+									<li class="list-inline-item pt-2 px-1"><a class="text-decoration-none" href="#"><i
+												class="fas fa-location-arrow"></i> Our location</a></li>
+									<li class="list-inline-item pt-2 px-1"><a class="text-decoration-none" href="#"><i
+												class="fas fa-headset"></i> Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+
+						<div class="row">
+							<div class="col-md-8 d-none d-md-block">
+
+
+								<ul class="list-unstyled offer-box mb-0 ">
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT80
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> Off 50%! Shop Now
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> Off 10%! Shop Vegetables
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> 50% - 80% off on Vegetables
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT30
+									</li>
+									<li class="pt-2">
+										<i class="fab fa-opencart"></i> Off 50%! Shop Now
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 text-center overflow-hidden">
+								<select id="register" class="w-auto mt-2">
+									<option>Register Here</option>
+									<option>Sign In</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Header Top -->
+		<!-- Start NAvBar -->
+		<nav class="navbar navbar-expand-lg navbar-light  bg-light ">
+			<div class="container">
+				<a class="navbar-brand w-25"><img src="./assets/images/logo.png" alt="logo" /></a>
+				<!-- Start Icons -->
+				<div class="order-lg-last">
+					<ul class="list-inline mt-4">
+						<li class="list-inline-item mr-0">
+							<a class="search nav-link" href="#"><i class="fa fa-search"></i></a>
+						</li>
+						<li class="list-inline-item ">
+							<a class="nav-link " href="#">
+								<p><i class="fa fa-shopping-bag"></i> <span class="my-cart">My Cart</span><sup
+										class="font-weight-bold">3</sup></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- End Icons -->
+
+				<button class="navbar-toggler  order-first" data-target="#header-navbar" data-toggle="collapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="header-navbar" class="collapse navbar-collapse w-50 ">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link text-uppercase mr-2" href="index.html">Home</a>
+						</li>
+						<li class="nav-item"><a class="nav-link text-uppercase mr-2" href="about.html">About Us</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+								Shop
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="wishlist.html">Wishlist</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link text-uppercase mr-2" href="gallery.html">Gallery</a>
+						</li>
+						<li class="nav-item"><a class="nav-link text-uppercase mr-4" href="contact-us.html">Contact
+								Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- End NAvBar -->
+		<!-- Start Main Slider -->
+		<div class="slider-wrapper" id="home">
+			<div class="slider-content-wrapper">
+				<div class="slider-content w-50 text-center">
+					<h1 class="font-weight-bold">Welcome To Freshshop</h1>
+					<p class="lead ">See how your users experience your website in realtime or view trends to see any
+						changes in performance over time.</p>
+					<button class="btn lead shop font-weight-bold text-uppercase btn-lg">Shop Now</button>
+				</div>
+			</div>
+			<div class="slider">
+				<img src="./assets/images/banner-01.jpg" alt="banner01" />
+				<img src="./assets/images/banner-02.jpg" alt="banner02" />
+				<img src="./assets/images/banner-03.jpg" alt="banner03" />
+			</div>
+			<div class="slide-controls">
+				<span id="prev" class="prev"> <i class="fas fa-arrow-left"></i> </span>
+				<span id="next" class="next"><i class="fas fa-arrow-right"></i></span>
+			</div>
+		</div>
+		<!-- End Main Slider -->
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Go up button -->
+	<div class="go-up">
+		<a href="#home"> <i class="fas fa-arrow-up fa-lg"></i> </a>
+	</div>
+	<!-- End Go up Button -->
+
+	<!-- Start Card Section -->
+	<div class="cards py-5">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-md-4 my-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="./assets/images/categories_img_01.jpg"
+							alt="Card image cap" />
+						<a href="#" class="btn py-2 font-weight-bold">Go somewhere</a>
+					</div>
+				</div>
+				<div class="col-md-4 my-4">
+					<div class="card">
+						<img class="card-img-top" src="./assets/images/categories_img_02.jpg" alt="Card image cap" />
+						<a href="#" class="btn py-2 font-weight-bold">Go somewhere</a>
+					</div>
+				</div>
+				<div class="col-md-4 my-4">
+					<div class="card">
+						<img class="card-img-top" src="./assets/images/categories_img_03.jpg" alt="Card image cap" />
+						<a href="#" class="btn py-2 font-weight-bold">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Card Section -->
+
+	<div class="fresh-shop py-5">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-md-6 my-3">
+					<div class="fresh-shop-left">
+						<img class="img-fluid" src="./assets/images/add-img-01.jpg" alt="" />
+					</div>
+				</div>
+				<div class="col-md-6 my-3">
+					<div class="fresh-shop-right">
+						<img class="img-fluid" src="./assets/images/add-img-02.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fruits And Veg -->
+	<div class="categories py-5">
+		<div class="container">
+			<div class="categories-controller text-center">
+				<h2>Fruits & Vegetables</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+				<ul class="list-inline  mt-4">
+					<li class="list-inline-item filter-list-item mr-0" data-filter="all"><a
+							class="category-selection-button px-3 py-2" href="#">All</a></li>
+					<li class="list-inline-item filter-list-item mr-0" data-filter="sale"><a
+							class="category-selection-button px-3 py-2" href="#">Top Features</a></li>
+					<li class="list-inline-item filter-list-item mr-0" data-filter="best"><a
+							class="category-selection-button px-3 py-2" href="#">Best Seller</a></li>
+				</ul>
+			</div>
+			<div class="row py-5">
+				<div class="col-lg-3 col-md-6 product sale">
+					<div class="card img-wrapper">
+						<img class="card-img-top" src="./assets/images/img-pro-01.jpg" alt="Atul Prajapati" />
+						<p class="h2">Buy Now</p>
+						<ul>
+							<li>
+								<a href="#"><i class="fas fa-eye"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-sync-alt"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="far fa-heart"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class=" peroduct-details p-2">
+						<p class="font-weight-bold">Lorem ipsum dolor sit amet</p>
+						<span class="badge py-2 px-3 font-weight-bold">$99</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 product best">
+					<div class="card img-wrapper">
+						<img class="card-img-top" src="./assets/images/img-pro-02.jpg" alt="Atul Prajapati" />
+						<p class="h2">Buy Now</p>
+						<ul>
+							<li>
+								<a href="#"><i class="fas fa-eye"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-sync-alt"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="far fa-heart"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class=" peroduct-details p-2">
+						<p class="font-weight-bold">Lorem ipsum dolor sit amet</p>
+						<span class="badge py-2 px-3 font-weight-bold">$99</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 product sale">
+					<div class="card img-wrapper">
+						<img class="card-img-top" src="./assets/images/img-pro-03.jpg" alt="Atul Prajapati" />
+						<p class="h2">Buy Now</p>
+						<ul>
+							<li>
+								<a href="#"><i class="fas fa-eye"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-sync-alt"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="far fa-heart"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class=" peroduct-details p-2 ">
+						<p class="font-weight-bold">Lorem ipsum dolor sit amet</p>
+						<span class="badge py-2 px-3 font-weight-bold">$99</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 product best">
+					<div class="card img-wrapper">
+						<img class="card-img-top" src="./assets/images/img-pro-04.jpg" alt="Atul Prajapati" />
+						<p class="h2">Buy Now</p>
+						<ul>
+							<li>
+								<a href="#"><i class="fas fa-eye"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fas fa-sync-alt"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="far fa-heart"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class=" peroduct-details p-2">
+						<p class="font-weight-bold">Lorem ipsum dolor sit amet</p>
+						<span class="badge py-2 px-3 font-weight-bold">$99</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- latest Blog Section -->
+	<div class="latest-blog py-5">
+		<div class="container">
+			<div class="text-center mb-5">
+				<h2>latest blog</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./assets/images/blog-img.jpg" alt="Blog-img" />
+						<div class="card-body pb-0">
+							<h5 class="card-title">Fusce in augue non nisi fringilla</h5>
+							<p class="card-text">Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in
+								lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus
+								cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+							<ul class="list-inline pb-0 mb-0 text-center">
+								<li class="list-inline-item blog-action mr-0">
+									<a href="#"><i class="far fa-heart"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="fas fa-eye"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="far fa-comments"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./assets/images/blog-img-01.jpg" alt="Blog-img" />
+						<div class="card-body pb-0">
+							<h5 class="card-title">Fusce in augue non nisi fringilla</h5>
+							<p class="card-text">Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in
+								lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus
+								cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+							<ul class="list-inline pb-0 mb-0 text-center">
+								<li class="list-inline-item blog-action mr-0">
+									<a href="#"><i class="far fa-heart"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="fas fa-eye"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="far fa-comments"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="./assets/images/blog-img-02.jpg" alt="Blog-img" />
+						<div class="card-body pb-0">
+							<h5 class="card-title">Fusce in augue non nisi fringilla</h5>
+							<p class="card-text">Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in
+								lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus
+								cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+							<ul class="list-inline pb-0 mb-0 text-center">
+								<li class="list-inline-item blog-action mr-0">
+									<a href="#"><i class="far fa-heart"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="fas fa-eye"></i></a>
+								</li>
+								<li class="list-inline-item blog-action  mr-0">
+									<a href="#"><i class="far fa-comments"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Latest Blog Section -->
+
+	<!-- Start Last Section -->
+	<footer class="m-0 text-white pt-5 pb-1">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-lg-4">
+					<p class="h4 w-50">
+						Business Time
+					</p>
+					<ul class="list-unstyled">
+						<li>Monday - Friday: 08.00am to 05.00pm</li>
+						<li>Saturday: 10.00am to 08.00pm</li>
+						<li>Sunday: Closed</li>
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<p class="h4 w-50">
+						Newsletter
+					</p>
+					<div class="input-group">
+						<input class="form-control border-right-0" type="email" name="newsletter"
+							placeholder="Email Address*" />
+						<div class="input-group-append ">
+							<span class="input-group-text bg-white border-left-0" id="email-icon"><i
+									class="fa fa-envelope"></i></span>
+						</div>
+					</div>
+					<a id="newsletter-submit" name="submit-newsletter"  class="btn mt-3" href="#"
+						role="button">Submit</a>
+				</div>
+				<div class="col-lg-4">
+					<p class="h4 w-50">Social Media</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<ul class="list-inline">
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-linkedin"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-google-plus"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fa fa-rss"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-pinterest-p"></i></a>
+						</li>
+						<li class="list-inline-item mr-0">
+							<a href="#"><i class="fab fa-whatsapp"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			<div class="row py-3">
+				<div class="col-lg-4">
+					<p class="h4">
+						ABOUT FRESHSHOP
+					</p>
+					<p class="about">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+					<p class="about">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua.
+					</p>
+				</div>
+				<div class="col-lg-4">
+					<p class="h4">INFORMATION</p>
+					<ul class="list-unstyled footer-nav">
+						<li class="py-1"><a href="#">About Us</a></li>
+						<li class="py-1"><a href="#">Customer Service</a></li>
+						<li class="py-1"><a href="#">Our Sitemap</a></li>
+						<li class="py-1"><a href="#">Terms &amp; Conditions</a></li>
+						<li class="py-1"><a href="#">Privacy Policy</a></li>
+						<li class="py-1"><a href="#">Delivery Information</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<p class="h4">
+						CONTACT US
+					</p>
+					<ul class="list-unstyled contact-us text-muted">
+						<li>
+							<p>
+								<i class="fas fa-map-marker-alt pr-1"></i> Address: Michael I. Days 3756 <br />Preston
+								Street Wichita,<br />
+								KS 67213
+							</p>
+						</li>
+						<li>
+							<p><i class="fas fa-phone-square pr-1"></i> Phone: <a href="tel:+1-888705770"
+									class="text-white">+1-888 705 770</a></p>
+						</li>
+						<li>
+							<p><i class="fas fa-envelope pr-1"></i> Email: <a href="mailto:contactinfo@gmail.com"
+									class="text-white">contactinfo@gmail.com</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Start copyright  -->
+			<div class="footer-copyright text-center">
+				<p>All Rights Reserved. &copy; 2019 <a href="#">ThewayShop</a> Design By : <a href="#">html
+						design</a></p>
+			</div>
+			<!-- End copyright  -->
+		</div>
+	</footer>
+	<!-- End Last Section -->
+
+
+
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/slider.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
